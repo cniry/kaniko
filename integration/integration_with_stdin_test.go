@@ -26,8 +26,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/GoogleContainerTools/kaniko/pkg/util"
-	"github.com/GoogleContainerTools/kaniko/testutil"
+	"github.com/cniry/kaniko/pkg/util"
+	"github.com/cniry/kaniko/testutil"
 )
 
 func TestBuildWithStdin(t *testing.T) {

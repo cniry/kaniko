@@ -1,11 +1,11 @@
 # kaniko - Build Images In Kubernetes
 
-## 🚨NOTE: kaniko is not an officially supported Google product🚨
+## 🚨WARNING: this is a non-official repository fork — the official repository is at https://github.com/GoogleContainerTools/kaniko/ 🚨
 
-[![Unit tests](https://github.com/GoogleContainerTools/kaniko/actions/workflows/unit-tests.yaml/badge.svg)](https://github.com/GoogleContainerTools/kaniko/actions/workflows/unit-tests.yaml)
-[![Integration tests](https://github.com/GoogleContainerTools/kaniko/actions/workflows/integration-tests.yaml/badge.svg)](https://github.com/GoogleContainerTools/kaniko/actions/workflows/integration-tests.yaml)
-[![Build images](https://github.com/GoogleContainerTools/kaniko/actions/workflows/images.yaml/badge.svg)](https://github.com/GoogleContainerTools/kaniko/actions/workflows/images.yaml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/GoogleContainerTools/kaniko)](https://goreportcard.com/report/github.com/GoogleContainerTools/kaniko)
+[![Unit tests](https://github.com/cniry/kaniko/actions/workflows/unit-tests.yaml/badge.svg)](https://github.com/cniry/kaniko/actions/workflows/unit-tests.yaml)
+[![Integration tests](https://github.com/cniry/kaniko/actions/workflows/integration-tests.yaml/badge.svg)](https://github.com/cniry/kaniko/actions/workflows/integration-tests.yaml)
+[![Build images](https://github.com/cniry/kaniko/actions/workflows/images.yaml/badge.svg)](https://github.com/cniry/kaniko/actions/workflows/images.yaml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/cniry/kaniko)](https://goreportcard.com/report/github.com/cniry/kaniko)
 
 ![kaniko logo](logo/Kaniko-Logo.png)
 
@@ -1228,7 +1228,7 @@ function calls using [Slow Jam](https://github.com/google/slowjam) To start
 profiling,
 
 1. Add an environment variable `STACKLOG_PATH` to your
-   [pod definition](https://github.com/GoogleContainerTools/kaniko/blob/master/examples/pod-build-profile.yaml#L15).
+   [pod definition](https://github.com/cniry/kaniko/blob/master/examples/pod-build-profile.yaml#L15).
 2. If you are using the kaniko `debug` image, you can copy the file in the
    `pre-stop` container lifecycle hook.
 
@@ -1266,7 +1266,7 @@ The following conditions must be met:
    ([GitHub](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners),[GitLab](https://docs.gitlab.com/runner/register/).
 2. Kaniko needs to be able to run on the desired architectures. At the time of
    writing, the official Kaniko container supports
-   [linux/amd64, linux/arm64, linux/s390x and linux/ppc64le (not on \*-debug images)](https://github.com/GoogleContainerTools/kaniko/blob/main/.github/workflows/images.yaml).
+   [linux/amd64, linux/arm64, linux/s390x and linux/ppc64le (not on \*-debug images)](https://github.com/cniry/kaniko/blob/main/.github/workflows/images.yaml).
 3. The container registry of your choice must be OCIv1 or Docker v2.2
    compatible.
 
@@ -1462,7 +1462,7 @@ changes to a file are made and when the `mtime` is updated. This means:
 
 _Note that these issues are currently theoretical only. If you see this issue
 occur, please
-[open an issue](https://github.com/GoogleContainerTools/kaniko/issues)._
+[open an issue](https://github.com/cniry/kaniko/issues)._
 
 ### Dockerfile commands `--chown` support
 Kaniko currently supports `COPY --chown` and `ADD --chown` Dockerfile command. It does not support `RUN --chown`.

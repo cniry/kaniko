@@ -25,10 +25,10 @@ import (
 	"sort"
 	"syscall"
 
-	"github.com/GoogleContainerTools/kaniko/pkg/config"
-	"github.com/GoogleContainerTools/kaniko/pkg/filesystem"
-	"github.com/GoogleContainerTools/kaniko/pkg/timing"
-	"github.com/GoogleContainerTools/kaniko/pkg/util"
+	"github.com/cniry/kaniko/pkg/config"
+	"github.com/cniry/kaniko/pkg/filesystem"
+	"github.com/cniry/kaniko/pkg/timing"
+	"github.com/cniry/kaniko/pkg/util"
 
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/unix"

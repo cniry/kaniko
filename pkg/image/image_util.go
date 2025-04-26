@@ -21,12 +21,12 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/GoogleContainerTools/kaniko/pkg/cache"
-	"github.com/GoogleContainerTools/kaniko/pkg/config"
-	"github.com/GoogleContainerTools/kaniko/pkg/constants"
-	"github.com/GoogleContainerTools/kaniko/pkg/image/remote"
-	"github.com/GoogleContainerTools/kaniko/pkg/timing"
-	"github.com/GoogleContainerTools/kaniko/pkg/util"
+	"github.com/cniry/kaniko/pkg/cache"
+	"github.com/cniry/kaniko/pkg/config"
+	"github.com/cniry/kaniko/pkg/constants"
+	"github.com/cniry/kaniko/pkg/image/remote"
+	"github.com/cniry/kaniko/pkg/timing"
+	"github.com/cniry/kaniko/pkg/util"
 
 	"github.com/google/go-containerregistry/pkg/name"
 	v1 "github.com/google/go-containerregistry/pkg/v1"

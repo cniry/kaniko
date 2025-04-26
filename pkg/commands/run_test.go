@@ -26,8 +26,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/GoogleContainerTools/kaniko/pkg/dockerfile"
-	"github.com/GoogleContainerTools/kaniko/testutil"
+	"github.com/cniry/kaniko/pkg/dockerfile"
+	"github.com/cniry/kaniko/testutil"
 	v1 "github.com/google/go-containerregistry/pkg/v1"
 )
 

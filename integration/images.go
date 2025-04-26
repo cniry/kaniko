@@ -31,9 +31,9 @@ import (
 	"time"
 
 	"cloud.google.com/go/storage"
-	"github.com/GoogleContainerTools/kaniko/pkg/timing"
-	"github.com/GoogleContainerTools/kaniko/pkg/util"
-	"github.com/GoogleContainerTools/kaniko/pkg/util/bucket"
+	"github.com/cniry/kaniko/pkg/timing"
+	"github.com/cniry/kaniko/pkg/util"
+	"github.com/cniry/kaniko/pkg/util/bucket"
 )
 
 const (
