@@ -20,10 +20,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/GoogleContainerTools/kaniko/pkg/dockerfile"
+	"github.com/cniry/kaniko/pkg/dockerfile"
 	"github.com/pkg/errors"
 
-	"github.com/GoogleContainerTools/kaniko/pkg/util"
+	"github.com/cniry/kaniko/pkg/util"
 	v1 "github.com/google/go-containerregistry/pkg/v1"
 	"github.com/moby/buildkit/frontend/dockerfile/instructions"
 	"github.com/sirupsen/logrus"

@@ -25,7 +25,7 @@ import (
 
 	"net/http"
 
-	"github.com/GoogleContainerTools/kaniko/pkg/config"
+	"github.com/cniry/kaniko/pkg/config"
 	"github.com/sirupsen/logrus"
 )
 

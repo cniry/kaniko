@@ -24,7 +24,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/GoogleContainerTools/kaniko/pkg/util"
+	"github.com/cniry/kaniko/pkg/util"
 )
 
 func Test_ResolvePaths(t *testing.T) {

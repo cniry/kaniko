@@ -1,4 +1,4 @@
-module github.com/GoogleContainerTools/kaniko
+module github.com/cniry/kaniko
 
 go 1.22
 
