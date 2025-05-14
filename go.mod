@@ -19,7 +19,7 @@ require (
 	github.com/google/go-cmp v0.6.0
 	github.com/google/go-containerregistry v0.19.2
 	github.com/google/go-github v17.0.0+incompatible
-	github.com/google/slowjam v1.1.1
+	github.com/google/slowjam v1.1.2
 	github.com/karrick/godirwalk v1.16.1
 	github.com/minio/highwayhash v1.0.3
 	github.com/moby/buildkit v0.14.1
@@ -133,7 +133,7 @@ require (
 	google.golang.org/api v0.188.0
 	google.golang.org/genproto v0.0.0-20240708141625-4ad9e859172b // indirect
 	google.golang.org/grpc v1.64.1 // indirect
-	google.golang.org/protobuf v1.34.2 // indirect
+	google.golang.org/protobuf v1.36.2 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )
 
